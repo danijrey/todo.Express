@@ -1,0 +1,19 @@
+{
+  "name": "todoserver",
+  "version": "1.0.0",
+  "description": "Server for a ToDo list using express",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Daniela Jaramillo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuid-random": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
